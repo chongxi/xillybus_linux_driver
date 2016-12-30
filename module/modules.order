@@ -1,0 +1,2 @@
+kernel//usr/local/xillybus/module/xillybus_core.ko
+kernel//usr/local/xillybus/module/xillybus_pcie.ko

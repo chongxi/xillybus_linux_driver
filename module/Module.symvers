@@ -1,0 +1,5 @@
+0xe7655a62	xillybus_endpoint_discovery	/usr/local/xillybus/module/xillybus_core	EXPORT_SYMBOL
+0xc95ffb63	xillybus_init_endpoint	/usr/local/xillybus/module/xillybus_core	EXPORT_SYMBOL
+0xc163ef8d	xillybus_endpoint_remove	/usr/local/xillybus/module/xillybus_core	EXPORT_SYMBOL
+0x25978d50	xillybus_isr	/usr/local/xillybus/module/xillybus_core	EXPORT_SYMBOL
+0xb2579693	xillybus_do_cleanup	/usr/local/xillybus/module/xillybus_core	EXPORT_SYMBOL
