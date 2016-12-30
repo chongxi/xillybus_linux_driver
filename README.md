@@ -22,7 +22,7 @@ Change directory to where the module's source is and type "make" to compile
 the module. The session should look something like this:
 
 ```
-cd module
+$ cd module
 ```
 
 ```
@@ -73,6 +73,6 @@ So, in the same directory, and still as root, copy the udev rule file to where
 all rules are kept, most likely /etc/udev/rules.d/, with
 
 ```
-cp 10-xillybus.rules /etc/udev/rules.d/
+$ cp 10-xillybus.rules /etc/udev/rules.d/
 ```
 
