@@ -1,5 +1,5 @@
-### What is this
-
+What is this
+================
 This is bundle for running Xillybus on a Linux machine. Due to its cross-
 platform nature, each platform uses a subset of those found here.
 
@@ -10,10 +10,7 @@ This bundle has three subdirectories:
 
 * module - The kernel module source + udev file
 * demoapps - Sample C userspace programs for trial and hacking
-* diagnostic - A simple diagnostic tool
-
-
-### How to compile 
+* diagnostic - A simple diagnostic tool 
 
 Please refer to Xillybus' web site document:
 
@@ -30,11 +27,14 @@ cd module
 
 ```
 $ make
+```
+
+```
 make -C /lib/modules/3.10.0-CUSTOM/build SUBDIRS=/home/myself/xillybus/module modules
 make[1]: Entering directory `/usr/src/kernels/3.10.0-CUSTOM'
   CC [M]  /home/myself/xillybus/module/xillybus_core.o
   CC [M]  /home/myself/xillybus/module/xillybus_pcie.o
-  Building modules, stage 2.
+  Building modules, stage 2
   MODPOST 2 modules
   CC      /home/myself/xillybus/module/xillybus_core.mod.o
   LD [M]  /home/myself/xillybus/module/xillybus_core.ko
@@ -51,10 +51,7 @@ during the compilation. If another kernel is targeted, type
 version, as it appears in `/lib/modules/`.
 
 
-### How to install the kernel module (*.ko)
-
-
-1. Installing the kernel module
+Installing the kernel module
 ============================
 Staying in the same directory, become root and type `make install`. This can
 take a few seconds, but shouldn't generate any errors.
@@ -64,7 +61,7 @@ If this fails, please refer to the website for more information.
 The installation does not load the module into the kernel immediately. It will
 do so on the next boot of the system if a Xillybus peripheral is discovered.
 
-2. Installing the udev file
+Installing the udev file
 ========================
 
 By default, Xillybus device files are accessible only by their owner, which is
