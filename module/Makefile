@@ -30,8 +30,8 @@ clean:
 	@rm -rf .tmp_versions module.target
 
 install: xillybus_core.ko xillybus_pcie.ko # xillybus_of.ko
-	install --mode 0644 xillybus_core.ko /lib/modules/$(shell cat module.target)/kernel/drivers/char/
-	install --mode 0644 xillybus_pcie.ko /lib/modules/$(shell cat module.target)/kernel/drivers/char/
+	install --mode 0644 xillybus_core.ko /lib/modules/$(shell cat module.target)/kernel/drivers/char/xillybus/
+	install --mode 0644 xillybus_pcie.ko /lib/modules/$(shell cat module.target)/kernel/drivers/char/xillybus/
 #	install --mode 0644 xillybus_of.ko /lib/modules/$(shell cat module.target)/kernel/drivers/char/
 	/sbin/depmod -a $(shell cat module.target)
 xillybus.ko:

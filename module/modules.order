@@ -1,2 +1,2 @@
-kernel//usr/local/xillybus/module/xillybus_core.ko
-kernel//usr/local/xillybus/module/xillybus_pcie.ko
+kernel//opt/localuser/Work/xillybus_linux_driver/module/xillybus_core.ko
+kernel//opt/localuser/Work/xillybus_linux_driver/module/xillybus_pcie.ko
