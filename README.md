@@ -21,10 +21,15 @@ Check whether an installation of xillybus driver is needed:
 
 Some Linux distributions have the PCIe / AXI Xillybus driver pre-installed out of the
 box, for example:
-• Ubuntu 14.04 and later
-• Xillinux (for the Zynq and Cyclone V SoC platforms only)
+
+- Ubuntu 14.04 and later
+- Xillinux (for the Zynq and Cyclone V SoC platforms only)
+
 A quick check if the driver is installed in the current system setting is
+```
 $ modinfo xillybus_core
+```
+
 at shell prompt. If the driver is installed, information about it is printed. Otherwise it
 says “modinfo: ERROR: Module xillybus core not found”.
 
