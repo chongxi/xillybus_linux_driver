@@ -16,7 +16,7 @@ Please refer to Xillybus' web site document:
 
 http://xillybus.com/downloads/doc/xillybus_getting_started_linux.pdf
 
-Check whether an installation of xillybus driver is needed:
+Do we need to install this driver? 
 ===========================
 
 Some Linux distributions have the PCIe / AXI Xillybus driver pre-installed out of the
