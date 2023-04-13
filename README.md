@@ -22,7 +22,7 @@ Do we need to install this kernel module?
 Some Linux distributions have the PCIe / AXI Xillybus driver pre-installed out of the
 box, for example:
 
-- Ubuntu 14.04 and later
+- Ubuntu 14.04 (no longer need for > Ubuntu 20)
 - Xillinux (for the Zynq and Cyclone V SoC platforms only)
 
 A quick check if the driver is installed in the current system setting is
